@@ -73,7 +73,6 @@ catch (err) {
 }
 });
 
-
 /** POST / => add new company
  *
  * {name, descrip}  =>  {company: {code, name, descrip}}
@@ -125,7 +124,7 @@ try {
     }
 }
 
- catch (err) {
+catch (err) {
     return next(err);
 }
 
